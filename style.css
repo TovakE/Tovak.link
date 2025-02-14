@@ -41,9 +41,9 @@ body {
 
 #userName {
     color: var(--accentColor);
-    font-size: 5rem;
+    font-size: 1rem;
     font-weight: bold;
-    line-height: 5.25;
+    line-height: 1.25;
     display: block;
     font-family: var(--font);
     width: 100%;
