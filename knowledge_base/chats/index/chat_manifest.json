@@ -1,0 +1,74 @@
+{
+  "version": 1,
+  "generated_at": "2026-03-27T05:12:47.324741+00:00",
+  "records": [
+    {
+      "id": "chat_000001",
+      "title": "Knowledge base chat storage request",
+      "topic": "operations",
+      "date": "2026-03-27",
+      "keywords": [
+        "filesystem",
+        "chats",
+        "retrieval",
+        "uploads",
+        "organization"
+      ],
+      "summary": "User requested chat-aware storage and retrieval structure for future uploads and subject organization.",
+      "topic_path": "chats/by-topic/operations/2026-03-27__operations__knowledge-base-chat-storage-request__v1.md",
+      "date_path": "chats/by-date/2026/03/2026-03-27__operations__knowledge-base-chat-storage-request__v1.md",
+      "source_files": [
+        "README.md",
+        "knowledge_base/index/manifest.json",
+        "knowledge_base/index/tags.json"
+      ]
+    },
+    {
+      "id": "chat_000002",
+      "title": "Chemistry and physics upload summaries",
+      "topic": "chemistry",
+      "date": "2026-03-27",
+      "keywords": [
+        "chemistry",
+        "physics",
+        "latex",
+        "summaries",
+        "indexing"
+      ],
+      "summary": "Created organized LaTeX summaries for uploaded chemistry-heavy materials and a physics-oriented bridge summary, then indexed both in the knowledge base.",
+      "topic_path": "chats/by-topic/chemistry/2026-03-27__chemistry__chemistry-and-physics-upload-summaries__v1.md",
+      "date_path": "chats/by-date/2026/03/2026-03-27__chemistry__chemistry-and-physics-upload-summaries__v1.md",
+      "source_files": [
+        "knowledge_base/docs/topic-chemistry/2026-03-27__chemistry__fundamental-chemistry-upload-summary__v1.tex",
+        "knowledge_base/docs/topic-physics/2026-03-27__physics__energy-thermo-kinetics-bridge-summary__v1.tex",
+        "knowledge_base/index/manifest.json",
+        "knowledge_base/index/tags.json"
+      ]
+    },
+    {
+      "id": "chat_000003",
+      "title": "Knowledge base browser notes page and overlap tracking",
+      "topic": "operations",
+      "date": "2026-03-27",
+      "keywords": [
+        "browser",
+        "notes",
+        "overlap",
+        "organization",
+        "review"
+      ],
+      "summary": "Added a browser-accessible knowledge page that lists documents/chats and overlap signals, plus automatic organization review updates after chat storage.",
+      "topic_path": "chats/by-topic/operations/2026-03-27__operations__knowledge-base-browser-notes-page-and-overlap-tracking__v1.md",
+      "date_path": "chats/by-date/2026/03/2026-03-27__operations__knowledge-base-browser-notes-page-and-overlap-tracking__v1.md",
+      "source_files": [
+        "knowledge.html",
+        "knowledge.js",
+        "knowledge.css",
+        "scripts/review_organization.py",
+        "scripts/store_chat.py",
+        "knowledge_base/index/manifest.json",
+        "knowledge_base/chats/index/chat_manifest.json"
+      ]
+    }
+  ]
+}
