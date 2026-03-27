@@ -1,0 +1,11 @@
+{
+  "id": "chat_000001",
+  "title": "RAG planning",
+  "topic": "ai",
+  "date": "2026-03-27",
+  "keywords": ["rag", "retrieval"],
+  "summary": "Designed a process to ingest and retrieve files by topic.",
+  "topic_path": "chats/by-topic/ai/2026-03-27__ai__rag-planning__v1.md",
+  "date_path": "chats/by-date/2026/03/2026-03-27__ai__rag-planning__v1.md",
+  "source_files": ["docs/topic-ai/2026-03-27__ai__rag-design-notes__v1.md"]
+}

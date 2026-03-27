@@ -1,0 +1,13 @@
+{
+  "id": "doc_000001",
+  "path": "docs/topic-ai/2026-03-27__ai__rag-design-notes__v1.md",
+  "title": "RAG Design Notes",
+  "topic": "ai",
+  "tags": ["rag", "retrieval", "embeddings"],
+  "file_type": "markdown",
+  "created_at": "2026-03-27",
+  "updated_at": "2026-03-27",
+  "summary": "Design decisions for retrieval-augmented generation.",
+  "keywords": ["chunking", "vector db", "reranking"],
+  "related_files": []
+}
