@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "generated_at": "2026-03-27T00:00:00+00:00",
+  "records": [
+    {
+      "id": "doc_000001",
+      "path": "docs/topic-chemistry/2026-03-27__chemistry__fundamental-chemistry-upload-summary__v1.tex",
+      "title": "Fundamental Chemistry Upload Summary",
+      "topic": "chemistry",
+      "tags": ["thermodynamics", "kinetics", "phase-change", "electrolytes"],
+      "file_type": "tex",
+      "created_at": "2026-03-27",
+      "updated_at": "2026-03-27",
+      "summary": "LaTeX summary of Chem 106 upload topics, equations, and study checklist.",
+      "keywords": ["delta G", "Arrhenius", "integrated rate law", "heating curve"],
+      "related_files": [
+        "doc_000002"
+      ]
+    },
+    {
+      "id": "doc_000002",
+      "path": "docs/topic-physics/2026-03-27__physics__energy-thermo-kinetics-bridge-summary__v1.tex",
+      "title": "Physics-Oriented Summary (Energy, Thermodynamics, and Kinetics)",
+      "topic": "physics",
+      "tags": ["energy", "entropy", "activation-energy", "dynamics"],
+      "file_type": "tex",
+      "created_at": "2026-03-27",
+      "updated_at": "2026-03-27",
+      "summary": "LaTeX summary framing uploaded chemistry material through physics concepts.",
+      "keywords": ["reaction coordinate", "Arrhenius", "first-order decay", "latent heat"],
+      "related_files": [
+        "doc_000001"
+      ]
+    }
+  ]
+}

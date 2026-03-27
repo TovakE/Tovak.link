@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Knowledge Base Notes</title>
+  <script src="canonical.js"></script>
+  <link rel="stylesheet" href="knowledge.css" />
+</head>
+<body>
+  <main class="kb-container">
+    <header>
+      <h1>Knowledge Base Notes</h1>
+      <p>Browse indexed notes/chats and see overlap between ideas.</p>
+      <p class="hint">Primary reference file: <code>knowledge_base/cache/knowledge_cache.json</code> (ordered by chat timeline).</p>
+    </header>
+
+    <section class="kb-grid">
+      <article class="panel">
+        <h2>Documents</h2>
+        <div id="docs-list" class="list"></div>
+      </article>
+
+      <article class="panel">
+        <h2>Chats</h2>
+        <div id="chats-list" class="list"></div>
+      </article>
+    </section>
+
+    <section class="panel">
+      <h2>Overlapping Ideas</h2>
+      <p class="hint">Higher score means stronger conceptual overlap based on shared tags/keywords/topic links.</p>
+      <div id="overlap-list" class="list"></div>
+    </section>
+
+    <section class="panel">
+      <h2>Latest Organization Review</h2>
+      <a href="knowledge_base/cache/knowledge_cache.json" target="_blank" rel="noopener">Open cache file</a>
+      <pre id="review-content" class="review"></pre>
+    </section>
+  </main>
+
+  <script src="knowledge.js"></script>
+</body>
+</html>

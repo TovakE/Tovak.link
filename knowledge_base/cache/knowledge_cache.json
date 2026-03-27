@@ -1,0 +1,720 @@
+{
+  "version": 1,
+  "generated_at": "2026-03-27T05:58:26.763938+00:00",
+  "reference": {
+    "cache_file": "knowledge_base/cache/knowledge_cache.json",
+    "note": "Use this file as the primary browser reference for saved knowledge data."
+  },
+  "docs": [
+    {
+      "id": "doc_000001",
+      "path": "docs/topic-chemistry/2026-03-27__chemistry__fundamental-chemistry-upload-summary__v1.tex",
+      "title": "Fundamental Chemistry Upload Summary",
+      "topic": "chemistry",
+      "tags": [
+        "thermodynamics",
+        "kinetics",
+        "phase-change",
+        "electrolytes"
+      ],
+      "file_type": "tex",
+      "created_at": "2026-03-27",
+      "updated_at": "2026-03-27",
+      "summary": "LaTeX summary of Chem 106 upload topics, equations, and study checklist.",
+      "keywords": [
+        "delta G",
+        "Arrhenius",
+        "integrated rate law",
+        "heating curve"
+      ],
+      "related_files": [
+        "doc_000002"
+      ]
+    },
+    {
+      "id": "doc_000002",
+      "path": "docs/topic-physics/2026-03-27__physics__energy-thermo-kinetics-bridge-summary__v1.tex",
+      "title": "Physics-Oriented Summary (Energy, Thermodynamics, and Kinetics)",
+      "topic": "physics",
+      "tags": [
+        "energy",
+        "entropy",
+        "activation-energy",
+        "dynamics"
+      ],
+      "file_type": "tex",
+      "created_at": "2026-03-27",
+      "updated_at": "2026-03-27",
+      "summary": "LaTeX summary framing uploaded chemistry material through physics concepts.",
+      "keywords": [
+        "reaction coordinate",
+        "Arrhenius",
+        "first-order decay",
+        "latent heat"
+      ],
+      "related_files": [
+        "doc_000001"
+      ]
+    }
+  ],
+  "chats": [
+    {
+      "id": "chat_000001",
+      "title": "Knowledge base chat storage request",
+      "topic": "operations",
+      "date": "2026-03-27",
+      "keywords": [
+        "filesystem",
+        "chats",
+        "retrieval",
+        "uploads",
+        "organization"
+      ],
+      "summary": "User requested chat-aware storage and retrieval structure for future uploads and subject organization.",
+      "topic_path": "chats/by-topic/operations/2026-03-27__operations__knowledge-base-chat-storage-request__v1.md",
+      "date_path": "chats/by-date/2026/03/2026-03-27__operations__knowledge-base-chat-storage-request__v1.md",
+      "source_files": [
+        "README.md",
+        "knowledge_base/index/manifest.json",
+        "knowledge_base/index/tags.json"
+      ]
+    },
+    {
+      "id": "chat_000002",
+      "title": "Chemistry and physics upload summaries",
+      "topic": "chemistry",
+      "date": "2026-03-27",
+      "keywords": [
+        "chemistry",
+        "physics",
+        "latex",
+        "summaries",
+        "indexing"
+      ],
+      "summary": "Created organized LaTeX summaries for uploaded chemistry-heavy materials and a physics-oriented bridge summary, then indexed both in the knowledge base.",
+      "topic_path": "chats/by-topic/chemistry/2026-03-27__chemistry__chemistry-and-physics-upload-summaries__v1.md",
+      "date_path": "chats/by-date/2026/03/2026-03-27__chemistry__chemistry-and-physics-upload-summaries__v1.md",
+      "source_files": [
+        "knowledge_base/docs/topic-chemistry/2026-03-27__chemistry__fundamental-chemistry-upload-summary__v1.tex",
+        "knowledge_base/docs/topic-physics/2026-03-27__physics__energy-thermo-kinetics-bridge-summary__v1.tex",
+        "knowledge_base/index/manifest.json",
+        "knowledge_base/index/tags.json"
+      ]
+    },
+    {
+      "id": "chat_000003",
+      "title": "Knowledge base browser notes page and overlap tracking",
+      "topic": "operations",
+      "date": "2026-03-27",
+      "keywords": [
+        "browser",
+        "notes",
+        "overlap",
+        "organization",
+        "review"
+      ],
+      "summary": "Added a browser-accessible knowledge page that lists documents/chats and overlap signals, plus automatic organization review updates after chat storage.",
+      "topic_path": "chats/by-topic/operations/2026-03-27__operations__knowledge-base-browser-notes-page-and-overlap-tracking__v1.md",
+      "date_path": "chats/by-date/2026/03/2026-03-27__operations__knowledge-base-browser-notes-page-and-overlap-tracking__v1.md",
+      "source_files": [
+        "knowledge.html",
+        "knowledge.js",
+        "knowledge.css",
+        "scripts/review_organization.py",
+        "scripts/store_chat.py",
+        "knowledge_base/index/manifest.json",
+        "knowledge_base/chats/index/chat_manifest.json"
+      ]
+    },
+    {
+      "id": "chat_000004",
+      "title": "Unified cache file for browser reference",
+      "topic": "operations",
+      "date": "2026-03-27",
+      "keywords": [
+        "cache",
+        "browser",
+        "chats",
+        "ordering",
+        "reference"
+      ],
+      "summary": "Added a cache directory with a single ordered cache file that the browser page references for docs, chats, overlaps, and review text.",
+      "topic_path": "chats/by-topic/operations/2026-03-27__operations__unified-cache-file-for-browser-reference__v1.md",
+      "date_path": "chats/by-date/2026/03/2026-03-27__operations__unified-cache-file-for-browser-reference__v1.md",
+      "source_files": [
+        "scripts/build_cache.py",
+        "scripts/review_organization.py",
+        "scripts/store_chat.py",
+        "knowledge.js",
+        "knowledge.html",
+        "README.md",
+        "knowledge_base/cache/knowledge_cache.json"
+      ]
+    },
+    {
+      "id": "chat_000005",
+      "title": "GitHub Pages and Cloudflare deployment setup",
+      "topic": "operations",
+      "date": "2026-03-27",
+      "keywords": [
+        "github-pages",
+        "cloudflare",
+        "dns",
+        "deployment",
+        "domain"
+      ],
+      "summary": "Added deployment workflow and docs for publishing the static site on GitHub Pages with a Cloudflare custom domain.",
+      "topic_path": "chats/by-topic/operations/2026-03-27__operations__github-pages-and-cloudflare-deployment-setup__v1.md",
+      "date_path": "chats/by-date/2026/03/2026-03-27__operations__github-pages-and-cloudflare-deployment-setup__v1.md",
+      "source_files": [
+        ".github/workflows/deploy-pages.yml",
+        "DEPLOYMENT.md",
+        "README.md",
+        "CNAME"
+      ]
+    },
+    {
+      "id": "chat_000006",
+      "title": "Copy-paste deployment checklist for tovak.net",
+      "topic": "operations",
+      "date": "2026-03-27",
+      "keywords": [
+        "checklist",
+        "github-pages",
+        "cloudflare",
+        "tovak.net",
+        "deployment"
+      ],
+      "summary": "Added a domain-specific, copy-paste checklist for deploying the site to GitHub Pages and connecting Cloudflare DNS/SSL for tovak.net.",
+      "topic_path": "chats/by-topic/operations/2026-03-27__operations__copy-paste-deployment-checklist-for-tovak-net__v1.md",
+      "date_path": "chats/by-date/2026/03/2026-03-27__operations__copy-paste-deployment-checklist-for-tovak-net__v1.md",
+      "source_files": [
+        "DEPLOY_CHECKLIST_TOVAK.md",
+        "DEPLOYMENT.md",
+        "README.md",
+        "CNAME"
+      ]
+    },
+    {
+      "id": "chat_000007",
+      "title": "Canonical domain redirect to tovak.net",
+      "topic": "operations",
+      "date": "2026-03-27",
+      "keywords": [
+        "domain",
+        "redirect",
+        "tovak.net",
+        "cloudflare",
+        "pages"
+      ],
+      "summary": "Added canonical host redirect logic so legacy tovak.link hosts route to https://tovak.net and updated deployment docs/checklist.",
+      "topic_path": "chats/by-topic/operations/2026-03-27__operations__canonical-domain-redirect-to-tovak-net__v1.md",
+      "date_path": "chats/by-date/2026/03/2026-03-27__operations__canonical-domain-redirect-to-tovak-net__v1.md",
+      "source_files": [
+        "canonical.js",
+        "index.html",
+        "knowledge.html",
+        "README.md",
+        "DEPLOYMENT.md",
+        "DEPLOY_CHECKLIST_TOVAK.md"
+      ]
+    },
+    {
+      "id": "chat_000008",
+      "title": "Main-branch Pages deploy guidance for TovakE/tovak.link",
+      "topic": "operations",
+      "date": "2026-03-27",
+      "keywords": [
+        "github-pages",
+        "main",
+        "branch",
+        "tovakE",
+        "tovak.link"
+      ],
+      "summary": "Updated deployment docs/checklist for explicit TovakE/tovak.link main-branch deployment settings and branch-source option.",
+      "topic_path": "chats/by-topic/operations/2026-03-27__operations__main-branch-pages-deploy-guidance-for-tovake-tovak-link__v1.md",
+      "date_path": "chats/by-date/2026/03/2026-03-27__operations__main-branch-pages-deploy-guidance-for-tovake-tovak-link__v1.md",
+      "source_files": [
+        "DEPLOYMENT.md",
+        "DEPLOY_CHECKLIST_TOVAK.md",
+        "README.md"
+      ]
+    }
+  ],
+  "overlaps": [
+    {
+      "score": 4,
+      "signals": [
+        "cloudflare",
+        "deployment",
+        "github-pages",
+        "same-topic"
+      ],
+      "left": {
+        "id": "chat_000005",
+        "title": "GitHub Pages and Cloudflare deployment setup",
+        "kind": "chat",
+        "topic": "operations",
+        "path": "chats/by-topic/operations/2026-03-27__operations__github-pages-and-cloudflare-deployment-setup__v1.md"
+      },
+      "right": {
+        "id": "chat_000006",
+        "title": "Copy-paste deployment checklist for tovak.net",
+        "kind": "chat",
+        "topic": "operations",
+        "path": "chats/by-topic/operations/2026-03-27__operations__copy-paste-deployment-checklist-for-tovak-net__v1.md"
+      }
+    },
+    {
+      "score": 3,
+      "signals": [
+        "Arrhenius",
+        "related-file-link"
+      ],
+      "left": {
+        "id": "doc_000001",
+        "title": "Fundamental Chemistry Upload Summary",
+        "kind": "doc",
+        "topic": "chemistry",
+        "path": "docs/topic-chemistry/2026-03-27__chemistry__fundamental-chemistry-upload-summary__v1.tex"
+      },
+      "right": {
+        "id": "doc_000002",
+        "title": "Physics-Oriented Summary (Energy, Thermodynamics, and Kinetics)",
+        "kind": "doc",
+        "topic": "physics",
+        "path": "docs/topic-physics/2026-03-27__physics__energy-thermo-kinetics-bridge-summary__v1.tex"
+      }
+    },
+    {
+      "score": 3,
+      "signals": [
+        "cloudflare",
+        "domain",
+        "same-topic"
+      ],
+      "left": {
+        "id": "chat_000005",
+        "title": "GitHub Pages and Cloudflare deployment setup",
+        "kind": "chat",
+        "topic": "operations",
+        "path": "chats/by-topic/operations/2026-03-27__operations__github-pages-and-cloudflare-deployment-setup__v1.md"
+      },
+      "right": {
+        "id": "chat_000007",
+        "title": "Canonical domain redirect to tovak.net",
+        "kind": "chat",
+        "topic": "operations",
+        "path": "chats/by-topic/operations/2026-03-27__operations__canonical-domain-redirect-to-tovak-net__v1.md"
+      }
+    },
+    {
+      "score": 3,
+      "signals": [
+        "cloudflare",
+        "tovak.net",
+        "same-topic"
+      ],
+      "left": {
+        "id": "chat_000006",
+        "title": "Copy-paste deployment checklist for tovak.net",
+        "kind": "chat",
+        "topic": "operations",
+        "path": "chats/by-topic/operations/2026-03-27__operations__copy-paste-deployment-checklist-for-tovak-net__v1.md"
+      },
+      "right": {
+        "id": "chat_000007",
+        "title": "Canonical domain redirect to tovak.net",
+        "kind": "chat",
+        "topic": "operations",
+        "path": "chats/by-topic/operations/2026-03-27__operations__canonical-domain-redirect-to-tovak-net__v1.md"
+      }
+    },
+    {
+      "score": 2,
+      "signals": [
+        "organization",
+        "same-topic"
+      ],
+      "left": {
+        "id": "chat_000001",
+        "title": "Knowledge base chat storage request",
+        "kind": "chat",
+        "topic": "operations",
+        "path": "chats/by-topic/operations/2026-03-27__operations__knowledge-base-chat-storage-request__v1.md"
+      },
+      "right": {
+        "id": "chat_000003",
+        "title": "Knowledge base browser notes page and overlap tracking",
+        "kind": "chat",
+        "topic": "operations",
+        "path": "chats/by-topic/operations/2026-03-27__operations__knowledge-base-browser-notes-page-and-overlap-tracking__v1.md"
+      }
+    },
+    {
+      "score": 2,
+      "signals": [
+        "chats",
+        "same-topic"
+      ],
+      "left": {
+        "id": "chat_000001",
+        "title": "Knowledge base chat storage request",
+        "kind": "chat",
+        "topic": "operations",
+        "path": "chats/by-topic/operations/2026-03-27__operations__knowledge-base-chat-storage-request__v1.md"
+      },
+      "right": {
+        "id": "chat_000004",
+        "title": "Unified cache file for browser reference",
+        "kind": "chat",
+        "topic": "operations",
+        "path": "chats/by-topic/operations/2026-03-27__operations__unified-cache-file-for-browser-reference__v1.md"
+      }
+    },
+    {
+      "score": 2,
+      "signals": [
+        "browser",
+        "same-topic"
+      ],
+      "left": {
+        "id": "chat_000003",
+        "title": "Knowledge base browser notes page and overlap tracking",
+        "kind": "chat",
+        "topic": "operations",
+        "path": "chats/by-topic/operations/2026-03-27__operations__knowledge-base-browser-notes-page-and-overlap-tracking__v1.md"
+      },
+      "right": {
+        "id": "chat_000004",
+        "title": "Unified cache file for browser reference",
+        "kind": "chat",
+        "topic": "operations",
+        "path": "chats/by-topic/operations/2026-03-27__operations__unified-cache-file-for-browser-reference__v1.md"
+      }
+    },
+    {
+      "score": 2,
+      "signals": [
+        "github-pages",
+        "same-topic"
+      ],
+      "left": {
+        "id": "chat_000005",
+        "title": "GitHub Pages and Cloudflare deployment setup",
+        "kind": "chat",
+        "topic": "operations",
+        "path": "chats/by-topic/operations/2026-03-27__operations__github-pages-and-cloudflare-deployment-setup__v1.md"
+      },
+      "right": {
+        "id": "chat_000008",
+        "title": "Main-branch Pages deploy guidance for TovakE/tovak.link",
+        "kind": "chat",
+        "topic": "operations",
+        "path": "chats/by-topic/operations/2026-03-27__operations__main-branch-pages-deploy-guidance-for-tovake-tovak-link__v1.md"
+      }
+    },
+    {
+      "score": 2,
+      "signals": [
+        "github-pages",
+        "same-topic"
+      ],
+      "left": {
+        "id": "chat_000006",
+        "title": "Copy-paste deployment checklist for tovak.net",
+        "kind": "chat",
+        "topic": "operations",
+        "path": "chats/by-topic/operations/2026-03-27__operations__copy-paste-deployment-checklist-for-tovak-net__v1.md"
+      },
+      "right": {
+        "id": "chat_000008",
+        "title": "Main-branch Pages deploy guidance for TovakE/tovak.link",
+        "kind": "chat",
+        "topic": "operations",
+        "path": "chats/by-topic/operations/2026-03-27__operations__main-branch-pages-deploy-guidance-for-tovake-tovak-link__v1.md"
+      }
+    },
+    {
+      "score": 1,
+      "signals": [
+        "same-topic"
+      ],
+      "left": {
+        "id": "doc_000001",
+        "title": "Fundamental Chemistry Upload Summary",
+        "kind": "doc",
+        "topic": "chemistry",
+        "path": "docs/topic-chemistry/2026-03-27__chemistry__fundamental-chemistry-upload-summary__v1.tex"
+      },
+      "right": {
+        "id": "chat_000002",
+        "title": "Chemistry and physics upload summaries",
+        "kind": "chat",
+        "topic": "chemistry",
+        "path": "chats/by-topic/chemistry/2026-03-27__chemistry__chemistry-and-physics-upload-summaries__v1.md"
+      }
+    },
+    {
+      "score": 1,
+      "signals": [
+        "same-topic"
+      ],
+      "left": {
+        "id": "chat_000001",
+        "title": "Knowledge base chat storage request",
+        "kind": "chat",
+        "topic": "operations",
+        "path": "chats/by-topic/operations/2026-03-27__operations__knowledge-base-chat-storage-request__v1.md"
+      },
+      "right": {
+        "id": "chat_000005",
+        "title": "GitHub Pages and Cloudflare deployment setup",
+        "kind": "chat",
+        "topic": "operations",
+        "path": "chats/by-topic/operations/2026-03-27__operations__github-pages-and-cloudflare-deployment-setup__v1.md"
+      }
+    },
+    {
+      "score": 1,
+      "signals": [
+        "same-topic"
+      ],
+      "left": {
+        "id": "chat_000001",
+        "title": "Knowledge base chat storage request",
+        "kind": "chat",
+        "topic": "operations",
+        "path": "chats/by-topic/operations/2026-03-27__operations__knowledge-base-chat-storage-request__v1.md"
+      },
+      "right": {
+        "id": "chat_000006",
+        "title": "Copy-paste deployment checklist for tovak.net",
+        "kind": "chat",
+        "topic": "operations",
+        "path": "chats/by-topic/operations/2026-03-27__operations__copy-paste-deployment-checklist-for-tovak-net__v1.md"
+      }
+    },
+    {
+      "score": 1,
+      "signals": [
+        "same-topic"
+      ],
+      "left": {
+        "id": "chat_000001",
+        "title": "Knowledge base chat storage request",
+        "kind": "chat",
+        "topic": "operations",
+        "path": "chats/by-topic/operations/2026-03-27__operations__knowledge-base-chat-storage-request__v1.md"
+      },
+      "right": {
+        "id": "chat_000007",
+        "title": "Canonical domain redirect to tovak.net",
+        "kind": "chat",
+        "topic": "operations",
+        "path": "chats/by-topic/operations/2026-03-27__operations__canonical-domain-redirect-to-tovak-net__v1.md"
+      }
+    },
+    {
+      "score": 1,
+      "signals": [
+        "same-topic"
+      ],
+      "left": {
+        "id": "chat_000001",
+        "title": "Knowledge base chat storage request",
+        "kind": "chat",
+        "topic": "operations",
+        "path": "chats/by-topic/operations/2026-03-27__operations__knowledge-base-chat-storage-request__v1.md"
+      },
+      "right": {
+        "id": "chat_000008",
+        "title": "Main-branch Pages deploy guidance for TovakE/tovak.link",
+        "kind": "chat",
+        "topic": "operations",
+        "path": "chats/by-topic/operations/2026-03-27__operations__main-branch-pages-deploy-guidance-for-tovake-tovak-link__v1.md"
+      }
+    },
+    {
+      "score": 1,
+      "signals": [
+        "same-topic"
+      ],
+      "left": {
+        "id": "chat_000003",
+        "title": "Knowledge base browser notes page and overlap tracking",
+        "kind": "chat",
+        "topic": "operations",
+        "path": "chats/by-topic/operations/2026-03-27__operations__knowledge-base-browser-notes-page-and-overlap-tracking__v1.md"
+      },
+      "right": {
+        "id": "chat_000005",
+        "title": "GitHub Pages and Cloudflare deployment setup",
+        "kind": "chat",
+        "topic": "operations",
+        "path": "chats/by-topic/operations/2026-03-27__operations__github-pages-and-cloudflare-deployment-setup__v1.md"
+      }
+    },
+    {
+      "score": 1,
+      "signals": [
+        "same-topic"
+      ],
+      "left": {
+        "id": "chat_000003",
+        "title": "Knowledge base browser notes page and overlap tracking",
+        "kind": "chat",
+        "topic": "operations",
+        "path": "chats/by-topic/operations/2026-03-27__operations__knowledge-base-browser-notes-page-and-overlap-tracking__v1.md"
+      },
+      "right": {
+        "id": "chat_000006",
+        "title": "Copy-paste deployment checklist for tovak.net",
+        "kind": "chat",
+        "topic": "operations",
+        "path": "chats/by-topic/operations/2026-03-27__operations__copy-paste-deployment-checklist-for-tovak-net__v1.md"
+      }
+    },
+    {
+      "score": 1,
+      "signals": [
+        "same-topic"
+      ],
+      "left": {
+        "id": "chat_000003",
+        "title": "Knowledge base browser notes page and overlap tracking",
+        "kind": "chat",
+        "topic": "operations",
+        "path": "chats/by-topic/operations/2026-03-27__operations__knowledge-base-browser-notes-page-and-overlap-tracking__v1.md"
+      },
+      "right": {
+        "id": "chat_000007",
+        "title": "Canonical domain redirect to tovak.net",
+        "kind": "chat",
+        "topic": "operations",
+        "path": "chats/by-topic/operations/2026-03-27__operations__canonical-domain-redirect-to-tovak-net__v1.md"
+      }
+    },
+    {
+      "score": 1,
+      "signals": [
+        "same-topic"
+      ],
+      "left": {
+        "id": "chat_000003",
+        "title": "Knowledge base browser notes page and overlap tracking",
+        "kind": "chat",
+        "topic": "operations",
+        "path": "chats/by-topic/operations/2026-03-27__operations__knowledge-base-browser-notes-page-and-overlap-tracking__v1.md"
+      },
+      "right": {
+        "id": "chat_000008",
+        "title": "Main-branch Pages deploy guidance for TovakE/tovak.link",
+        "kind": "chat",
+        "topic": "operations",
+        "path": "chats/by-topic/operations/2026-03-27__operations__main-branch-pages-deploy-guidance-for-tovake-tovak-link__v1.md"
+      }
+    },
+    {
+      "score": 1,
+      "signals": [
+        "same-topic"
+      ],
+      "left": {
+        "id": "chat_000004",
+        "title": "Unified cache file for browser reference",
+        "kind": "chat",
+        "topic": "operations",
+        "path": "chats/by-topic/operations/2026-03-27__operations__unified-cache-file-for-browser-reference__v1.md"
+      },
+      "right": {
+        "id": "chat_000005",
+        "title": "GitHub Pages and Cloudflare deployment setup",
+        "kind": "chat",
+        "topic": "operations",
+        "path": "chats/by-topic/operations/2026-03-27__operations__github-pages-and-cloudflare-deployment-setup__v1.md"
+      }
+    },
+    {
+      "score": 1,
+      "signals": [
+        "same-topic"
+      ],
+      "left": {
+        "id": "chat_000004",
+        "title": "Unified cache file for browser reference",
+        "kind": "chat",
+        "topic": "operations",
+        "path": "chats/by-topic/operations/2026-03-27__operations__unified-cache-file-for-browser-reference__v1.md"
+      },
+      "right": {
+        "id": "chat_000006",
+        "title": "Copy-paste deployment checklist for tovak.net",
+        "kind": "chat",
+        "topic": "operations",
+        "path": "chats/by-topic/operations/2026-03-27__operations__copy-paste-deployment-checklist-for-tovak-net__v1.md"
+      }
+    },
+    {
+      "score": 1,
+      "signals": [
+        "same-topic"
+      ],
+      "left": {
+        "id": "chat_000004",
+        "title": "Unified cache file for browser reference",
+        "kind": "chat",
+        "topic": "operations",
+        "path": "chats/by-topic/operations/2026-03-27__operations__unified-cache-file-for-browser-reference__v1.md"
+      },
+      "right": {
+        "id": "chat_000007",
+        "title": "Canonical domain redirect to tovak.net",
+        "kind": "chat",
+        "topic": "operations",
+        "path": "chats/by-topic/operations/2026-03-27__operations__canonical-domain-redirect-to-tovak-net__v1.md"
+      }
+    },
+    {
+      "score": 1,
+      "signals": [
+        "same-topic"
+      ],
+      "left": {
+        "id": "chat_000004",
+        "title": "Unified cache file for browser reference",
+        "kind": "chat",
+        "topic": "operations",
+        "path": "chats/by-topic/operations/2026-03-27__operations__unified-cache-file-for-browser-reference__v1.md"
+      },
+      "right": {
+        "id": "chat_000008",
+        "title": "Main-branch Pages deploy guidance for TovakE/tovak.link",
+        "kind": "chat",
+        "topic": "operations",
+        "path": "chats/by-topic/operations/2026-03-27__operations__main-branch-pages-deploy-guidance-for-tovake-tovak-link__v1.md"
+      }
+    },
+    {
+      "score": 1,
+      "signals": [
+        "same-topic"
+      ],
+      "left": {
+        "id": "chat_000007",
+        "title": "Canonical domain redirect to tovak.net",
+        "kind": "chat",
+        "topic": "operations",
+        "path": "chats/by-topic/operations/2026-03-27__operations__canonical-domain-redirect-to-tovak-net__v1.md"
+      },
+      "right": {
+        "id": "chat_000008",
+        "title": "Main-branch Pages deploy guidance for TovakE/tovak.link",
+        "kind": "chat",
+        "topic": "operations",
+        "path": "chats/by-topic/operations/2026-03-27__operations__main-branch-pages-deploy-guidance-for-tovake-tovak-link__v1.md"
+      }
+    }
+  ],
+  "review_text": "# Knowledge Base Organization Review\n\n- Generated at (UTC): `2026-03-27T05:58:23.735569+00:00`\n- Indexed documents: `2`\n- Indexed chats: `8`\n- Overlap links found: `23`\n\n## Documents by Topic\n- `chemistry`: 1\n- `physics`: 1\n\n## Overlapping Ideas (Top 10)\n- (4) chat_000005 \u2194 chat_000006 | signals: cloudflare, deployment, github-pages, same-topic\n- (3) doc_000001 \u2194 doc_000002 | signals: Arrhenius, related-file-link\n- (3) chat_000005 \u2194 chat_000007 | signals: cloudflare, domain, same-topic\n- (3) chat_000006 \u2194 chat_000007 | signals: cloudflare, tovak.net, same-topic\n- (2) chat_000001 \u2194 chat_000003 | signals: organization, same-topic\n- (2) chat_000001 \u2194 chat_000004 | signals: chats, same-topic\n- (2) chat_000003 \u2194 chat_000004 | signals: browser, same-topic\n- (2) chat_000005 \u2194 chat_000008 | signals: github-pages, same-topic\n- (2) chat_000006 \u2194 chat_000008 | signals: github-pages, same-topic\n- (1) doc_000001 \u2194 chat_000002 | signals: same-topic\n\n## Organization Issues\n- none\n"
+}
