@@ -1,0 +1,67 @@
+{
+  "generated_at": "2026-03-27T05:12:47.395078+00:00",
+  "records": [
+    {
+      "score": 3,
+      "signals": [
+        "Arrhenius",
+        "related-file-link"
+      ],
+      "left": {
+        "id": "doc_000001",
+        "title": "Fundamental Chemistry Upload Summary",
+        "kind": "doc",
+        "topic": "chemistry",
+        "path": "docs/topic-chemistry/2026-03-27__chemistry__fundamental-chemistry-upload-summary__v1.tex"
+      },
+      "right": {
+        "id": "doc_000002",
+        "title": "Physics-Oriented Summary (Energy, Thermodynamics, and Kinetics)",
+        "kind": "doc",
+        "topic": "physics",
+        "path": "docs/topic-physics/2026-03-27__physics__energy-thermo-kinetics-bridge-summary__v1.tex"
+      }
+    },
+    {
+      "score": 2,
+      "signals": [
+        "organization",
+        "same-topic"
+      ],
+      "left": {
+        "id": "chat_000001",
+        "title": "Knowledge base chat storage request",
+        "kind": "chat",
+        "topic": "operations",
+        "path": "chats/by-topic/operations/2026-03-27__operations__knowledge-base-chat-storage-request__v1.md"
+      },
+      "right": {
+        "id": "chat_000003",
+        "title": "Knowledge base browser notes page and overlap tracking",
+        "kind": "chat",
+        "topic": "operations",
+        "path": "chats/by-topic/operations/2026-03-27__operations__knowledge-base-browser-notes-page-and-overlap-tracking__v1.md"
+      }
+    },
+    {
+      "score": 1,
+      "signals": [
+        "same-topic"
+      ],
+      "left": {
+        "id": "doc_000001",
+        "title": "Fundamental Chemistry Upload Summary",
+        "kind": "doc",
+        "topic": "chemistry",
+        "path": "docs/topic-chemistry/2026-03-27__chemistry__fundamental-chemistry-upload-summary__v1.tex"
+      },
+      "right": {
+        "id": "chat_000002",
+        "title": "Chemistry and physics upload summaries",
+        "kind": "chat",
+        "topic": "chemistry",
+        "path": "chats/by-topic/chemistry/2026-03-27__chemistry__chemistry-and-physics-upload-summaries__v1.md"
+      }
+    }
+  ]
+}

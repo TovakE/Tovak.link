@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "topics": {
+    "ai": ["rag", "embeddings", "llm", "agents"],
+    "finance": ["budget", "forecast", "valuation", "returns"],
+    "legal": ["policy", "contracts", "terms", "compliance"],
+    "chemistry": ["thermodynamics", "kinetics", "phase-change", "electrolytes"],
+    "physics": ["energy", "entropy", "activation-energy", "dynamics"]
+  }
+}
