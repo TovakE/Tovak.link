@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Record Builder</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="container">
+      <h1>Record Builder</h1>
+      <p class="subtitle">Create a structured person record and download it instantly.</p>
+
+      <form id="recordForm" novalidate>
+        <fieldset>
+          <legend>Required Details</legend>
+
+          <div class="field">
+            <label for="name">Name <span aria-hidden="true">*</span></label>
+            <input id="name" name="name" type="text" required autocomplete="name" />
+            <small class="error" id="nameError"></small>
+          </div>
+
+          <div class="field">
+            <label for="address">Address <span aria-hidden="true">*</span></label>
+            <input id="address" name="address" type="text" required autocomplete="street-address" />
+            <small class="error" id="addressError"></small>
+          </div>
+
+          <div class="field">
+            <label for="phone">Phone <span aria-hidden="true">*</span></label>
+            <input id="phone" name="phone" type="tel" required autocomplete="tel" />
+            <small class="error" id="phoneError"></small>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>Optional Details</legend>
+
+          <div class="field">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" autocomplete="email" />
+          </div>
+
+          <div class="field">
+            <label for="notes">Notes</label>
+            <textarea id="notes" name="notes" rows="4"></textarea>
+          </div>
+        </fieldset>
+
+        <div class="actions">
+          <button type="submit">Generate Record</button>
+          <button id="downloadJson" type="button" disabled>Download Document (.json)</button>
+          <button id="downloadTxt" type="button" disabled>Download Text (.txt)</button>
+        </div>
+      </form>
+
+      <section class="panel" aria-live="polite">
+        <h2>Output Preview</h2>
+        <pre id="output">Submit the form to preview JSON output.</pre>
+      </section>
+
+      <p id="status" class="status" role="status" aria-live="polite"></p>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
